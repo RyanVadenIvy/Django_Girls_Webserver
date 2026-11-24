@@ -1,0 +1,277 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ install requests
+usage: install [-bCcpSsUv] [-f flags] [-g group] [-m mode] [-o owner]
+               [-M log] [-D dest] [-h hash] [-T tags]
+               [-B suffix] [-l linkflags] [-N dbdir]
+               file1 file2
+       install [-bCcpSsUv] [-f flags] [-g group] [-m mode] [-o owner]
+               [-M log] [-D dest] [-h hash] [-T tags]
+               [-B suffix] [-l linkflags] [-N dbdir]
+               file1 ... fileN directory
+       install -dU [-vU] [-g group] [-m mode] [-N dbdir] [-o owner]
+               [-M log] [-D dest] [-h hash] [-T tags]
+               directory ...
+bash-3.2$ 
+bash-3.2$ pip3 install requests
+Requirement already satisfied: requests in /opt/anaconda3/lib/python3.14/site-packages (2.34.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/anaconda3/lib/python3.14/site-packages (from requests) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/lib/python3.14/site-packages (from requests) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in /opt/anaconda3/lib/python3.14/site-packages (from requests) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /opt/anaconda3/lib/python3.14/site-packages (from requests) (2026.6.17)
+bash-3.2$ python -m pip install requests
+Requirement already satisfied: requests in /opt/anaconda3/lib/python3.14/site-packages (2.34.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/anaconda3/lib/python3.14/site-packages (from requests) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/lib/python3.14/site-packages (from requests) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in /opt/anaconda3/lib/python3.14/site-packages (from requests) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /opt/anaconda3/lib/python3.14/site-packages (from requests) (2026.6.17)
+bash-3.2$ ls
+__pycache__				GGMod3.ipynb				Public
+application.py				Library					python3.py
+Applications				Module 4 Programming Assignment.ipynb	PythonProjects
+books.db				Module3.ipynb				Splice
+Desktop					Movies					test.py
+Documents				Music					Untitled.ipynb
+Downloads				Pictures				Virtual Machines.localized
+bash-3.2$ chdir
+bash: chdir: command not found
+bash-3.2$ chdir PythonProjects
+bash: chdir: command not found
+bash-3.2$ dir PythonProjects
+bash: dir: command not found
+bash-3.2$ bash
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+__pycache__				GGMod3.ipynb				Public
+application.py				Library					python3.py
+Applications				Module 4 Programming Assignment.ipynb	PythonProjects
+books.db				Module3.ipynb				Splice
+Desktop					Movies					test.py
+Documents				Music					Untitled.ipynb
+Downloads				Pictures				Virtual Machines.localized
+bash-3.2$ chdir PythonProjects
+bash: chdir: command not found
+bash-3.2$ help
+GNU bash, version 3.2.57(1)-release (arm64-apple-darwin25)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ JOB_SPEC [&]                       (( expression ))
+ . filename [arguments]             :
+ [ arg... ]                         [[ expression ]]
+ alias [-p] [name[=value] ... ]     bg [job_spec ...]
+ bind [-lpvsPVS] [-m keymap] [-f fi break [n]
+ builtin [shell-builtin [arg ...]]  caller [EXPR]
+ case WORD in [PATTERN [| PATTERN]. cd [-L|-P] [dir]
+ command [-pVv] command [arg ...]   compgen [-abcdefgjksuv] [-o option
+ complete [-abcdefgjksuv] [-pr] [-o continue [n]
+ declare [-afFirtx] [-p] [name[=val dirs [-clpv] [+N] [-N]
+ disown [-h] [-ar] [jobspec ...]    echo [-neE] [arg ...]
+ enable [-pnds] [-a] [-f filename]  eval [arg ...]
+ exec [-cl] [-a name] file [redirec exit [n]
+ export [-nf] [name[=value] ...] or false
+ fc [-e ename] [-nlr] [first] [last fg [job_spec]
+ for NAME [in WORDS ... ;] do COMMA for (( exp1; exp2; exp3 )); do COM
+ function NAME { COMMANDS ; } or NA getopts optstring name [arg]
+ hash [-lr] [-p pathname] [-dt] [na help [-s] [pattern ...]
+ history [-c] [-d offset] [n] or hi if COMMANDS; then COMMANDS; [ elif
+ jobs [-lnprs] [jobspec ...] or job kill [-s sigspec | -n signum | -si
+ let arg [arg ...]                  local name[=value] ...
+ logout                             popd [+N | -N] [-n]
+ printf [-v var] format [arguments] pushd [dir | +N | -N] [-n]
+ pwd [-LP]                          read [-ers] [-u fd] [-t timeout] [
+ readonly [-af] [name[=value] ...]  return [n]
+ select NAME [in WORDS ... ;] do CO set [--abefhkmnptuvxBCHP] [-o opti
+ shift [n]                          shopt [-pqsu] [-o long-option] opt
+ source filename [arguments]        suspend [-f]
+ test [expr]                        time [-p] PIPELINE
+ times                              trap [-lp] [arg signal_spec ...]
+ true                               type [-afptP] name [name ...]
+ typeset [-afFirtx] [-p] name[=valu ulimit [-SHacdfilmnpqstuvx] [limit
+ umask [-p] [-S] [mode]             unalias [-a] name [name ...]
+ unset [-f] [-v] [name ...]         until COMMANDS; do COMMANDS; done
+ variables - Some variable names an wait [n]
+ while COMMANDS; do COMMANDS; done  { COMMANDS ; }
+bash-3.2$ pwd
+/Users/rexv
+bash-3.2$ ls
+__pycache__				GGMod3.ipynb				Public
+application.py				Library					python3.py
+Applications				Module 4 Programming Assignment.ipynb	PythonProjects
+books.db				Module3.ipynb				Splice
+Desktop					Movies					test.py
+Documents				Music					Untitled.ipynb
+Downloads				Pictures				Virtual Machines.localized
+bash-3.2$ cd PythonProjects
+bash-3.2$ ls
+__pycache__		API_Practice2.py	hello_world_test.py	Module2Lab.py		Untitled.ipynb
+API Practice.py		application.py		instance		Module3CarsLab.py	untitled.md
+API Practice2.py	Book_Application.py	main.py			Module3Lab.py		Virtual Environment
+bash-3.2$ python3 -m venv myvenv
+bash-3.2$ source myvenv/bin/activate
+(myvenv) bash-3.2$ python -m pip install --upgrade pip
+Requirement already satisfied: pip in ./myvenv/lib/python3.14/site-packages (26.1.2)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pip
+  Using cached pip-26.3-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.3-py3-none-any.whl (2.0 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.1.2
+    Uninstalling pip-26.1.2:
+      Successfully uninstalled pip-26.1.2
+Successfully installed pip-26.3
+(myvenv) bash-3.2$ pip install -r requirements.txt
+Collecting Django~=5.2.12 (from -r requirements.txt (line 1))
+  Downloading django-5.2.19-py3-none-any.whl.metadata (4.1 kB)
+Collecting asgiref>=3.8.1 (from Django~=5.2.12->-r requirements.txt (line 1))
+  Downloading asgiref-3.13.0-py3-none-any.whl.metadata (12 kB)
+Collecting sqlparse>=0.3.1 (from Django~=5.2.12->-r requirements.txt (line 1))
+  Downloading sqlparse-0.6.1-py3-none-any.whl.metadata (6.9 kB)
+Downloading django-5.2.19-py3-none-any.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 38.4 MB/s  0:00:00
+Downloading asgiref-3.13.0-py3-none-any.whl (27 kB)
+Downloading sqlparse-0.6.1-py3-none-any.whl (51 kB)
+Installing collected packages: sqlparse, asgiref, Django
+Successfully installed Django-5.2.19 asgiref-3.13.0 sqlparse-0.6.1
+(myvenv) bash-3.2$ django-admin startprojrect mysite .
+No Django settings specified.
+Unknown command: 'startprojrect'. Did you mean startproject?
+Type 'django-admin help' for usage.
+(myvenv) bash-3.2$ djangon-admin startproject mysite .
+bash: djangon-admin: command not found
+(myvenv) bash-3.2$ django-admin startproject mysite .
+(myvenv) bash-3.2$ python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+(myvenv) bash-3.2$ pwd
+/Users/rexv/PythonProjects
+(myvenv) bash-3.2$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2026 - 22:38:48
+Django version 5.2.19, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[23/Nov/2026 22:39:13] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[23/Nov/2026 22:39:13] "GET /favicon.ico HTTP/1.1" 404 2208
+CONTROL-C
+[23/Nov/2026 22:40:16] "GET / HTTP/1.1" 200 12068
+[23/Nov/2026 22:40:20] "GET / HTTP/1.1" 200 12068
+bahs
+bash
+exit
+^C(myvenv) bash-3.2$ python3 manage.py startapp blog
+(myvenv) bash-3.2$ python manage.py makemigrations blog .
+No installed app with label '.'.
+(myvenv) bash-3.2$ python manage.py makemigrations blog
+Migrations for 'blog':
+  blog/migrations/0001_initial.py
+    + Create model Post
+(myvenv) bash-3.2$ mython manage.py migrate blog
+bash: mython: command not found
+(myvenv) bash-3.2$ python manage.py migrate blog
+Operations to perform:
+  Apply all migrations: blog
+Running migrations:
+  Applying blog.0001_initial... OK
+(myvenv) bash-3.2$ python3 manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2026 - 22:49:35
+Django version 5.2.19, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[23/Nov/2026 22:49:40] "GET /admin/ HTTP/1.1" 302 0
+[23/Nov/2026 22:49:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+[23/Nov/2026 22:49:40] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+[23/Nov/2026 22:49:40] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[23/Nov/2026 22:49:40] "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+[23/Nov/2026 22:49:40] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[23/Nov/2026 22:49:40] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[23/Nov/2026 22:49:40] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[23/Nov/2026 22:49:40] "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+[23/Nov/2026 22:54:37] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[23/Nov/2026 22:54:37] "GET /admin/ HTTP/1.1" 200 7114
+[23/Nov/2026 22:54:37] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[23/Nov/2026 22:54:37] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[23/Nov/2026 22:54:37] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[23/Nov/2026 22:54:37] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[23/Nov/2026 22:54:37] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[23/Nov/2026 22:54:37] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[23/Nov/2026 22:54:37] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[23/Nov/2026 22:54:37] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[23/Nov/2026 22:54:37] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Last login: Mon Nov 23 20:38:05 on ttys000
+(base) rexv@Ryans-MacBook-Air ~ % source myvenv/bin/activate
+source: no such file or directory: myvenv/bin/activate
+(base) rexv@Ryans-MacBook-Air ~ % python -m venv myvenv
+(base) rexv@Ryans-MacBook-Air ~ % source myvenv/bin/activate
+(myvenv) (base) rexv@Ryans-MacBook-Air ~ % python3 manage.py createsuperuser
+python3: can't open file '/Users/rexv/manage.py': [Errno 2] No such file or directory
+(myvenv) (base) rexv@Ryans-MacBook-Air ~ % pwd
+/Users/rexv
+(myvenv) (base) rexv@Ryans-MacBook-Air ~ % ls
+__pycache__				Movies
+application.py				Music
+Applications				myvenv
+books.db				Pictures
+Desktop					Public
+Documents				python3.py
+Downloads				PythonProjects
+GGMod3.ipynb				Splice
+Library					test.py
+Module 4 Programming Assignment.ipynb	Untitled.ipynb
+Module3.ipynb				Virtual Machines.localized
+(myvenv) (base) rexv@Ryans-MacBook-Air ~ % cd PythonProjects
+(myvenv) (base) rexv@Ryans-MacBook-Air PythonProjects % source myvenv/bin/activate
+(myvenv) (base) rexv@Ryans-MacBook-Air PythonProjects % python3 manage.py createsuperuse
+Unknown command: 'createsuperuse'. Did you mean createsuperuser?
+Type 'manage.py help' for usage.
+(myvenv) (base) rexv@Ryans-MacBook-Air PythonProjects % python3 manage.py createsuperuser
+Username (leave blank to use 'rexv'): 
+Email address: ryanjones2of2@gmail.com
+Password: 
+Password (again): 
+Superuser created successfully.
+(myvenv) (base) rexv@Ryans-MacBook-Air PythonProjects % 
+
+
